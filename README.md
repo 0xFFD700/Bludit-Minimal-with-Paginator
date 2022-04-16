@@ -9,3 +9,11 @@
 
 ### Minimal-2
 ![Minimal-2](https://user-images.githubusercontent.com/19951276/162193991-c8881bed-e0fb-4f5a-a476-7949b5d608ed.PNG)
+
+
+### Minimal-3
+![Minimal-3](https://user-images.githubusercontent.com/19951276/163689032-a1e0c9d4-ed21-4303-918e-0c2b0254d1fc.PNG)
+
+
+### Minimal-4
+![Minimal-4](https://user-images.githubusercontent.com/19951276/163689041-40e055ac-0189-481b-b36b-5ddcdbf8adfa.PNG)
