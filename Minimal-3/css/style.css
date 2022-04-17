@@ -126,22 +126,16 @@ a.title:active {
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 850px) {
     .text-yellow {
         color: #2e7778 !important;
         font-size: 120% !important;
     }
-    .navbar-toggler-icon {
-        font-size: 90% !important;
-    }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 610px) {
     .text-yellow {
         color: #2e7778 !important;
-        font-size: 100% !important;
-    }
-    .navbar-toggler-icon {
         font-size: 90% !important;
     }
 }
@@ -149,20 +143,14 @@ a.title:active {
 @media screen and (max-width: 500px) {
     .text-yellow {
         color: #2e7778 !important;
-        font-size: 65% !important;
-    }
-    .navbar-toggler-icon {
         font-size: 70% !important;
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 425px) {
     .text-yellow {
         color: #2e7778 !important;
-        font-size: 60% !important;
-    }
-    .navbar-toggler-icon {
-        font-size: 60% !important;
+        font-size: 50% !important;
     }
 }
 

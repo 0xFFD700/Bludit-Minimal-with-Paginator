@@ -1,13 +1,17 @@
-<nav class="pb-4 navbar text-uppercase fixed-top navbar-light bg-light justify-content-center align-items-start">
-    <button class="navbar-toggler ml-auto mt-1" type="button" data-toggle="collapse" data-target="#navbar">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <a class="navbar-brand position-absolute mx-0" href="<?php echo Theme::siteUrl() ?>">
-    <span class="text-yellow align-middle"><?php echo $site->title() ?></span>
+	<!-- Navbar -->
+	<nav class="navbar fixed-top navbar-light bg-light text-uppercase mb-3">
+    <div class="mx-auto">
+    <a class="navbar-brand pl-3" href="<?php echo Theme::siteUrl() ?>">
+    <span class="text-yellow pl-5"><?php echo $site->title() ?></span>
   </a>
-    </span>
-    <div class="navbar-collapse collapse" id="navbar">
-    <ul class="navbar-nav mr-auto text-center mt-4">
+  </div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon pb-5"></span>
+  </button>
+ 
+  <div class="collapse navbar-collapse text-center" id="navbarResponsive">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
     <li class="nav-item">
             <a class="nav-link" href="/about">about</a>
           </li>
@@ -20,7 +24,7 @@
         endif;
       endforeach; ?>
     </ul>
-    
+
     <!-- Search Plugin -->
     <?php if (pluginActivated('pluginSearch')) : ?>
       <div class="d-flex">
@@ -46,5 +50,6 @@
         </script>
       </div>
     <?php endif ?>
-    </div>
+
+  </div>
 </nav>

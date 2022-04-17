@@ -1,9 +1,9 @@
 <?php if ($WHERE_AM_I == 'home') : ?>
 
 <?php endif; ?>
-<div class="container-fluid mt-5 pt-4">
+<div class="container-fluid mt-2">
 	<div class="row">
-		<div class="col-sm-14 pt-3">
+		<div class="col-sm-14 pt-2 pb-2 mt-5">
 			<div class="row row-cols-1 row-cols-md-3 g-4">
 				<?php foreach ($content as $page) : ?>
 					<div class="col-xl-4 col-sm-6 col-12">
@@ -24,7 +24,7 @@
 
 	<!-- numberOfPages kann in den Einstellungen oder direkt hier im Code geändert werden -->
     <?php if (Paginator::numberOfPages()>1): ?>
-    <div class="container pb-2 text-center">
+    <div class="container pb-3 text-center">
     <div class="btn-group rounded-pill" role="group" aria-label="Basic example">
       <?php if (Paginator::showPrev()): ?>
       <a class="btn text-secondary" href="<?php echo Paginator::previousPageUrl() ?>" role="button"><i class="fas fa-arrow-left"></i></a>

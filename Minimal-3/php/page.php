@@ -1,4 +1,4 @@
-<div class="container mt-2 mb-5 mt-5">
+<div class="container mt-5 mb-5">
   <div class="row">
     <div class="col-lg-2"></div>
     <div class="col-md-12 col-lg-8">
@@ -8,7 +8,7 @@
         <?php Theme::plugins('pageBegin'); ?>
 
         <?php if ($page->coverImage()) : ?>
-          <img class="card-img-top mb-4 mt-4 rounded-0" alt="Cover Image" src="<?php echo $page->coverImage(); ?>" />
+          <img class="card-img-top mb-4 rounded-0" alt="Cover Image" src="<?php echo $page->coverImage(); ?>" />
         <?php endif ?>
         <div class="card-body p-0">
           <a class="text-dark" href="<?php echo $page->permalink(); ?>">
